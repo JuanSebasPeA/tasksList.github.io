@@ -33,6 +33,7 @@ const FormularioTareas = ({tasks, changeTasks}) => {
                 }
             ]
         );
+        changeInputTask('');
     }
 
     /* return JSX code */

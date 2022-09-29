@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheckCircle, faCircle, faEdit, faTimes} from '@fortawesome/free-solid-svg-icons'
 
 /* module Task */
-const Task = ({task, toogleCompleted, editTask, deleteTask}) => {
+const Task = ({task, toggleCompleted, editTask, deleteTask}) => {
 
     /* using useState to prube if task is being editing */
     const [editingTask, changeEditingTask] = useState(false);
@@ -18,7 +18,6 @@ const Task = ({task, toogleCompleted, editTask, deleteTask}) => {
     }
 
     return ( 
-
         <li className='lista-tareas__tarea' >
             {/* icon to mark the task completed */}
             <FontAwesomeIcon 
@@ -26,7 +25,7 @@ const Task = ({task, toogleCompleted, editTask, deleteTask}) => {
                 className="lista-tareas__icono lista-tareas__icono-check"
                 /* if the icon is pressed execute toogleCompleted(extracted from ListTasks passing the id of the task) to change 
                 the value task.completed */
-                onClick={() => toogleCompleted(task.id)}
+                onClick={() => toggleCompleted(task.id)}
             />
 
             <div className='lista-tareas__texto'>
