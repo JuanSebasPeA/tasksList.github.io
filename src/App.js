@@ -5,6 +5,7 @@ import React, {useState} from 'react';
 import './App.css';
 import Header from './components/Header';
 import FormularioTareas from './components/FormularioTareas';
+import ListTask from './components/ListTasks';
 
 /* main module */
 const App = () => {
@@ -14,14 +15,9 @@ const App = () => {
     [
       {
         id: 1,
-        description: 'lavar',
-        complete: false
-      }, 
-      {
-        id: 2,
-        description: 'terminar app',
-        complete: false
-      }    
+        description: 'finish the app',
+        completed: true
+      } 
     ]
     )
 /* depuring showing all tasks */
@@ -31,8 +27,9 @@ console.log(tasks);
   return (
     <div className='contenedor'>
       <Header />
-      {/* al formulario le paso tareas y cambiarTareas(la función) como propiedades*/}
+      {/* Pass to form: tasks and xhangeTasks as properties */}
       <FormularioTareas tasks = {tasks} changeTasks = {changeTasks}/>
+      <ListTask tasks={tasks} changeTasks={changeTasks} />
     </div>
   );
 }

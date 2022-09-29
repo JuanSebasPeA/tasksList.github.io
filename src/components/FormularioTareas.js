@@ -49,6 +49,7 @@ const FormularioTareas = ({tasks, changeTasks}) => {
                 the inputTask state to the value in the input) */
                 onChange={(e) => handleInput(e)}
             />
+            {/* button to submit the task wrote in the input */ }
             <button 
                 type='submit' 
                 className='form-tasks__btn'
