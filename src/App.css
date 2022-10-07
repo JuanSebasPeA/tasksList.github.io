@@ -32,7 +32,7 @@ web App to write tasks and complete this tasks */
 }
 
 .header__title {
-	font-weight: 400;
+	font-weight: bold;
 	font-size: 24px;
 }
 
@@ -48,6 +48,11 @@ web App to write tasks and complete this tasks */
 	display: flex;
 	align-items: center;
 	border: solid 2px white;
+}
+
+.header__button:hover {
+	background-color: var(--verde);
+	opacity: 0.9;
 }
 
 .header__icon-button {

@@ -51,7 +51,7 @@ const Task = ({task, toggleCompleted, editTask, deleteTask}) => {
 
             {/* including other icons */}
             <div className='lista-tareas__contenedor-botones'>
-                {/* icon to edit the task */}
+                {/* icon to edit the task if the icon is clicked call the function changeEditingTask to delele the task */}
                 <FontAwesomeIcon 
                     icon={faEdit} 
                     className="lista-tareas__icono lista-tareas__icono-accion" 
