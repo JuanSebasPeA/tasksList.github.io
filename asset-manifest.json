@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tasksList.github.io/static/css/main.b5cda675.css",
-    "main.js": "/tasksList.github.io/static/js/main.0740fde4.js",
-    "index.html": "/tasksList.github.io/index.html",
-    "main.b5cda675.css.map": "/tasksList.github.io/static/css/main.b5cda675.css.map",
-    "main.0740fde4.js.map": "/tasksList.github.io/static/js/main.0740fde4.js.map"
+    "main.css": "/static/css/main.16aa8733.css",
+    "main.js": "/static/js/main.0d5d327d.js",
+    "index.html": "/index.html",
+    "main.16aa8733.css.map": "/static/css/main.16aa8733.css.map",
+    "main.0d5d327d.js.map": "/static/js/main.0d5d327d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5cda675.css",
-    "static/js/main.0740fde4.js"
+    "static/css/main.16aa8733.css",
+    "static/js/main.0d5d327d.js"
   ]
 }
