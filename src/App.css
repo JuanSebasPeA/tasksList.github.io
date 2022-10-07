@@ -4,6 +4,7 @@ web App to write tasks and complete this tasks */
 :root {
 	--verde: #1b8771;
 	--azul: #152567f8;
+	--naranja: #ff6e33;
 }
 
 .contenedor {
@@ -12,7 +13,7 @@ web App to write tasks and complete this tasks */
 	height: 100%;
 	max-height: 90vh;
 	overflow: auto;
-	box-shadow: 0 2px 10px rgba(139,139,139,.25);
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.25);
 	border-radius: 3px;
 	display: grid;
 	grid-template-rows: auto auto 1fr;
@@ -25,9 +26,9 @@ web App to write tasks and complete this tasks */
 	justify-content: space-between;
 	height: 60px;
 	padding: 0 20px;
-	background: var(--verde);
+	background: var(--naranja);
 	color: #fff;
-	border-radius: 7px;
+	border-radius: 2px;
 }
 
 .header__title {
@@ -41,11 +42,12 @@ web App to write tasks and complete this tasks */
 	color: #fff;
 	border: none;
 	cursor: pointer;
-	background: var(--azul);
+	background:#3c3c3c ;
 	padding: 5px 10px;
-	border-radius: 3px;
+	border-radius: 10px;
 	display: flex;
 	align-items: center;
+	border: solid 2px white;
 }
 
 .header__icon-button {

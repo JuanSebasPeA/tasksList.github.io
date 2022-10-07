@@ -21,7 +21,7 @@ const Header = ({showCompletedTasks, changeShowCompletedTasks}) => {
 					className="header__button"
 					onClick={() => toggleCompleted()}
 				>
-					Solo completadas
+					No mostar completadas
 					<FontAwesomeIcon icon={faEyeSlash} className="header__icon-boton" />
 				</button>
 			:
@@ -29,7 +29,7 @@ const Header = ({showCompletedTasks, changeShowCompletedTasks}) => {
 					className="header__button"
 					onClick={() => toggleCompleted()}
 				>
-					Mostrar Todo
+					Mostrar completadas
 					<FontAwesomeIcon icon={faEye} className="header__icon-button" />
 				</button>
 			}

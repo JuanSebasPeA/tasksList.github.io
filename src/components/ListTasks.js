@@ -56,7 +56,7 @@ const ListTask = ({tasks, changeTasks, showCompletedTasks}) => {
                             deleteTask={deleteTask}
                             />
                 /* if task is not completed return the task */
-                }else if(task.completed) {
+                }else if(!task.completed) {
                     return <Task 
                             key={task.id} 
                             task={task}
